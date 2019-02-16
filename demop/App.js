@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import 'typeface-roboto';
 
 export default class App extends React.Component {
   render() {
@@ -18,11 +17,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-});
-
-const theme = createMuiTheme({
-  typography: {
-    useNextVariants: true,
   },
 });
